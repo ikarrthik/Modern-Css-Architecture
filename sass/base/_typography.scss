@@ -1,0 +1,28 @@
+
+.heading {
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color:white;
+  backface-visibility: hidden;
+  text-align: center;
+
+  &__text-name{
+    display: block;
+    letter-spacing: 1.5rem;
+    font-weight: 400;
+    font-size: 5rem;
+    text-transform: uppercase;
+    animation: moveFromLeft 1s ease-out;
+
+  }
+
+  &__text-role{
+    display: block;
+    letter-spacing: 1rem;
+    font-weight: 700;
+    animation: moveFromRight 1s ease-out;
+    margin-bottom:10rem;
+  }
+}
