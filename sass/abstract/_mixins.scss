@@ -4,3 +4,9 @@
   border-radius: 10rem;
   color: $color-primary;
 }
+
+@mixin clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
